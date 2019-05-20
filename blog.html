@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Tech Blog">
+    <meta name="description" content="Site de Blog de Tecnologia">
+    <meta name="author" content="Pablo Peres">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="blog.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <title>Tech Blog</title>
+</head>
+
+<body>
+
+    <header class="topo">
+        <!-- LOGOTIPO <img href="#" class="logo" src="./img/logo1.png">	!-->
+                   
+            <nav class="menu"> 
+                <ul>
+                  
+                    <li><a button type="button" href="#noticias" class="btn btn-dark"><strong>Notícias</strong></button></a></li>
+                    <li><a button type="button" href="#tutoriais" class="btn btn-dark"><strong>Tutoriais</strong></button></a></li>
+                    <li><a button type="button" href="#apps" class="btn btn-dark"><strong>Apps</strong></button></a></li>
+                    <li><a button type="button" href="#cinema" class="btn btn-dark"><strong>Cinema</strong></button></a></li>
+                    <li><a button type="button" href="#sobre" class="btn btn-dark"><strong>Sobre</strong></button></a></li>
+                    <li><a button type="button" href="#contato" class="btn btn-dark"><strong>Contato</strong></button></a></li>
+                    <li><a button type="button" href="#funcionarios" class="btn btn-dark"><strong>Funcionarios</strong></button></a></li>
+                </ul>
+            </nav>
+      </header>
+   <hr>
+
+   <main class="carrossel">
+      <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <a href="https://tecnoblog.net/287332/microsoft-1-trilhao-dolares-valor-mercado/"> <img src=" microsoft.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="texto"> <strong>Microsoft</strong></p>
+                  <p class="texto">Microsoft ultrapassa US$ 1.000.000.000.000 em valor de mercado.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+              <a href="https://tecnoblog.net/287473/premio-google-play-2019-apps-jogos-android/"> <img src=" go.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="texto"> <strong>Google</strong></p>
+                  <p class="texto">Google escolhe os melhores apps para Android na Play Store em 2019.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+              <a href="https://noticias.uol.com.br/tecnologia/noticias/reuters/2019/04/24/samsung-planeja-investir-us116-bilhoes-em-chips-para-desafiar-rivais.htm?next=0001H12161U96L48P"><img src=" processador.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="texto"> <strong>Samsung</strong></p>
+                  <p class="texto">Samsung vai investir US$ 116 bi para se tornar líder em CPU de celular.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <a href="https://tecnoblog.net/287411/netflix-30-filmes-series-brasil/"> <img src=" netflix.png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <p class="texto"> <strong>Netflix</strong></p>
+                      <p class="texto">Netflix vai produzir 30 séries e filmes originais no Brasil.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                      <a href="https://tecnoblog.net/286733/clonagem-celular-chip-brasil/"> <img src=" celular1.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p class="texto"> <strong>Brasil</strong></p>
+                          <p class="texto">Clonagem de celular vira moda no Brasil e rouba até R$ 10 mil por vítima.</p>
+                        </div>
+                      </div>
+           
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </main>
+
+    <br>
+    <div class="container">
+    <div class=" row contexto" id="noticias">
+            <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+                <a href="https://www.tecmundo.com.br/intel/1039-o-que-e-inteligencia-artificial-.htm"><img src=" inteligenciaart.png" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+                <p><strong>Inteligencia Artificial</strong></p>
+                <p>Inteligência Artificial (IA) é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana de raciocinar, perceber, tomar decisões e resolver problemas, enfim, a capacidade de ser inteligente.
+                  Existente há décadas, esta área da ciência é grandemente impulsionada com o rápido desenvolvimento da informática e da computação, permitindo que novos elementos sejam agregados à IA...</p>
+                    <a href="https://www.tecmundo.com.br/intel/1039-o-que-e-inteligencia-artificial-.htm"><p>Veja mais...</p></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+                <a href="https://tecnoblog.net/286957/intel-core-i5-i7-i9-nona-geracao-serie-h-notebooks/"><img src=" process.png" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+                <p><strong>Processadores Core i5, i7 e i9.</strong></p>
+                <p>A Intel prometeu lançar a nona geração de processadores Core para notebooks antes do meio do ano. Promessa cumprida: focados em alto desempenho,
+                     os novos Core i5, i7 e i9 da série H foram anunciados oficialmente nesta terça-feira (23). 
+                    Os grandes destaques são os chips Core i9-9980H e Core i9-9980HK (desbloqueado).
+                    São seis novos processadores nesta leva. Como previsto...</p>
+                    <a href="https://tecnoblog.net/286957/intel-core-i5-i7-i9-nona-geracao-serie-h-notebooks/"><p>Veja mais...</p></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+                <a href="https://tecnoblog.net/287172/claro-tim-vivo-faixa-700-mhz-leilao-5g/"> <img src=" operadorasss.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+                <p> <strong>Claro, TIM e Vivo</strong> </p>
+                <p>Claro, TIM e Vivo não poderão comprar faixa de 700 MHz no leilão de 5G. O leilão de 5G acontecerá em março de 2020, 
+                    e a Anatel irá oferecer as frequências de 2,3 GHz, 3,3 GHz, 3,5 GHz e 26 GHz. Além disso, a agência vai leiloar as
+                    sobras da faixa de 700 MHz; o problema é que Claro, TIM e Vivo não poderão arrematar o espectro de 10 MHz + 10 MHz dessa faixa —
+                    isso poderá ser feito apenas pela Oi ou por outra operadora...</p>
+                <a href="https://tecnoblog.net/287172/claro-tim-vivo-faixa-700-mhz-leilao-5g/"><p>Veja mais...</p></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+              <a href="https://olhardigital.com.br/dicas_e_tutoriais/noticia/os-melhores-gerenciadores-de-arquivos-para-android/85240"> <img src=" arquivos.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+              <p> <strong>Os melhores gerenciadores de arquivos para Android</strong> </p>
+              <p>Todos os smartphones que rodam o sistema Android contam com algum programa integrado para que você possa gerenciar os arquivos armazenados nele. Apesar disto, a maioria das fabricantes acabam restringindo as funções destes aplicativos, 
+                  fazendo com que eles sejam bem simples e nem sempre atendem a todas as necessidades de seus utilizadores...</p>
+              <a href="https://olhardigital.com.br/dicas_e_tutoriais/noticia/os-melhores-gerenciadores-de-arquivos-para-android/85240"><p>Veja mais...</p></a>
+          </div>
+
+  </div>
+</div>
+    <hr>
+    <br>
+    <div class="container">
+    <div class="row tutoriais" id="tutoriais">
+
+      <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+        <a href="https://tutoriaisweb.com/como-inserir-a-barra-de-favoritos-na-nova-versao-do-google-chrome/"><img src=" chrome.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+        <p><strong>Como inserir a barra de favoritos na nova versão do Google Chrome</strong></p>
+        <p>Nas versões mais recentes do Google Chrome, a barra de favoritos não é exibida ao usuário assim que ele começa a utilizar o 
+          navegador recém-instalado. Para acessar seus sites favoritos de uma forma mais rápida, siga este simples tutorial...</p>
+        <a href="https://tutoriaisweb.com/como-inserir-a-barra-de-favoritos-na-nova-versao-do-google-chrome/"><p>Veja mais...</p></a>
+    </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://www.oficinadanet.com.br/artigo/1509/5_passos_para_turbinar_o_seu_blog"><img src=" blogs.png" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>5 passos para turbinar o seu blog</strong></p>
+      <p>Neste post veremos 5 passos para turbinar o seu blog e melhorar o número de visitas. Conteúdo de qualidade - informações raras e expressivas são as que mais trazem visitantes. 
+        Não faça apenas apresentação de produtos ou serviços no blog, procure ser diferente, original...</p>
+      <a href="https://www.oficinadanet.com.br/artigo/1509/5_passos_para_turbinar_o_seu_blog"><p>Veja mais...</p></a>
+    </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://tutoriaisweb.com/o-que-sao-e-como-fazer-tuites-patrocinados-no-twitter/"><img src=" twitt.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>O que são e como fazer tuítes patrocinados no Twitter</strong></p>
+      <p>A primeira fase do Twitter com tuítes patrocinados teve início em abril de 2010, com forte presença de parceiros publicitários como Best Buy,
+       Bravo, Red Bull, Sony Pictures, Starbucks e Virgin America. Grandes marcas brasileiras também adotaram a ferramenta e, recentemente,
+       as pequenas e médias empresas passaram a pagar para que seus conteúdos sejam publicados nos resultados de busca e na timeline dos usuários...</p>
+      <a href="https://tutoriaisweb.com/o-que-sao-e-como-fazer-tuites-patrocinados-no-twitter/"><p>Veja mais...</p></a>
+    </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://www.tecmundo.com.br/intel/1039-o-que-e-inteligencia-artificial-.htm"><img src=" redessociais.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>Ferramentas para automatizar tarefas em redes sociais</strong></p>
+      <p>Em um mundo cada vez mais dominado pela rede social, o impacto que nossos comentários têm no nosso entorno, não já social,
+       mas profissional, influi decisivamente na nossa possível futura trajetória. Portanto, começa a ser necessária uma certa 
+       automatização nos processos que, diariamente, levamos a cabo em nossas redes sociais...</p>
+      <a href="https://www.tecmundo.com.br/intel/1039-o-que-e-inteligencia-artificial-.htm"><p>Veja mais...</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row apps" id="apps">
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://www.umov.me/mercado-de-apps-tendencias-2019/"><img src=" app.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>Mercado de apps: 4 tendências para 2019</strong></p>
+      <p>O mercado de apps está sempre repleto de novidades e para 2019 as perspectivas não são diferentes.
+          Para o ano seguinte, esse mercado continuará em expansão, acompanhando a consolidação do uso crescente de celulares e de outros dispositivos móveis, como tablets.
+          Os smartphones, por exemplo, não são mais acessórios usados apenas para ligações e envios de mensagens. Com o desenvolvimento tecnológico do mercado de apps, esses aparelhos se tornaram presentes em diversas etapas do cotidiano.</p>
+      <a href="https://www.umov.me/mercado-de-apps-tendencias-2019/"><p>Veja mais...</p></a>
+    </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://noticias.uol.com.br/tecnologia/noticias/redacao/2019/02/12/novidades-a-caminho-atualizacao-vai-mudar-a-cara-do-whatsapp-no-android.htm"><img src=" whatsapp.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>Atualização! Vai mudar a cara do WhatsApp no android</strong></p>
+      <p>O aplicativo queridinho dos brasileiros tem uma mudança de visual a caminho, que já chegou para quem está inscrito no
+        programa de testes do Android.A versão 2.19.45 do app trouxe um novo design para o menu dos Ajustes, trazendo a inclusão
+        de ícones que facilitam a navegação na hora que você quer arrumar detalhes do aplicativo...</p>
+      <a href="https://noticias.uol.com.br/tecnologia/noticias/redacao/2019/02/12/novidades-a-caminho-atualizacao-vai-mudar-a-cara-do-whatsapp-no-android.htm"><p>Veja mais...</p></a>
+     </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://blog.gmaxcorp.com.br/11-atualizacoes-do-facebook-que-voce-precisa-saber-para-2019"><img src=" facebook.jpg" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>11 atualizações do Facebook que você precisa saber</strong></p>
+      <p>A única constante no marketing de mídia social é que as coisas estão sempre mudando, e isso é especialmente verdadeiro na maior rede social do mundo, o Facebook.
+        Ainda mais interessante nos dias de hoje é que, quando o Facebook faz uma mudança, há um efeito trickle-down no Instagram, o que é especialmente verdadeiro no que diz respeito à publicidade.
+        O bom pessoal do Facebook lançou algumas grandes atualizações que devemos aguardar nos próximos meses 
+        - atualizações que devemos ter em mente ao planejar nossas estratégias para 2019. Para ajudar a mantê-lo atualizado, 
+        aqui estão onze novas atualizações do Facebook que você precisa conhecer para 2019...</p>
+      <a href="https://blog.gmaxcorp.com.br/11-atualizacoes-do-facebook-que-voce-precisa-saber-para-2019"><p>Veja mais...</p></a>
+    </div>
+
+    <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-3 item">
+      <a href="https://www.techtudo.com.br/noticias/2019/03/apps-gratis-ou-em-promocao-veja-os-destaques-para-android-da-semana.ghtml"><img src=" promocao.png" alt="" img class ="img-fluid img-thumbnail rounded"></a>
+      <p><strong>Apps grátis ou em promoção: veja os destaques para Android da semana</strong></p>
+      <p>A Google Play Store oferece promoções no preço de alguns aplicativos para Android toda semana. Nesta, 
+        há 16 serviços pagos que estão de graça para os usuários do sistema do Google, como o Math Plus Ultra, 
+        calculadora profissional que oficialmente custa R$ 11,99... </p>
+      <a href="https://www.techtudo.com.br/noticias/2019/03/apps-gratis-ou-em-promocao-veja-os-destaques-para-android-da-semana.ghtml"><p>Veja mais...</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="cinema" id="cinema">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/aaGIPZZqjiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/wmiIUN-7qhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/UNjD2Lv_vWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/yyJBHeU0sBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<hr>
+
+    <div id="sobre">
+        <h3> Nossa historia</h3>
+        <div class="container">
+        <div class="row conteudo">
+          <div class="col-md-4"><p>O Tecnoblog nasceu em 2019, entre o Natal e o Ano Novo. Na época Thiago Mobilon tinha 19 anos e trabalhava com manutenção de computadores e design, e era um usuário ativo de fóruns de tecnologia, onde compartilhava as suas experiências tecnológicas e tirava dúvidas com outros usuários. </p></div>
+          <div class="col-md-4"><p>Um dia, da ânsia de aprender mais sobre programação, comprou um domínio e colocou o site no ar. O crescimento foi consistente, se transformando em uma empresa de mídia dois anos depois. </p></div>
+          <div class="col-md-4"><p> Hoje o TB é um dos maiores e mais respeitados sites de tecnologia do Brasil. Com uma equipe de quase 20 pessoas que se esforça para publicar diariamente as notícias mais importantes, cobrir lançamentos nacionais e no exterior, dar dicas e publicar análises dos produtos mais desejados.</p> </div>
+        </div> 
+    </div>
+  </div>
+        <h3>Fale conosco.</h3>
+        
+        <div class="contato" id="contato">
+            <div class=" col-4 "> <p>Envie sua mensagem para a equipe do Tecnoblog através do email contato@techblog.net. Seus dados permanecem seguros e serão usados somente para te responder – caso seja necessário.</p></div>
+            <div class=" col-4 "><p> O Tech Blog não presta consultoria por email. Mensagens encaminhadas para a redação podem servir de base para reportagens publicadas no site. Correções de ordem gramatical e linguística são bem-vindas! Entretanto, é possível que não respondamos sua mensagem.</p></div>
+        </div>
+
+        <form class="formulario col-md-6">
+            <div class="form-group">
+              <label for="exampleInputName"> <strong>Nome:</strong></label>
+              <input type="name" class="form-control" id="exampleInputname" aria-describedby="nameHelp" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1"><strong>Email:</strong></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputTel"><strong>Telefone:</strong></label>
+              <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="TelHelp" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"><strong>Mensagem:</strong></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-info">Enviar</button>
+            
+        </form>
+
+          <div class="funcionarios">
+            <h3 id="funcionarios">Equipe de trabalho</h3>
+            <div class="container">
+               <div class="row fotos">
+                    <div class="row text-center">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <strong class="nomes">Pablo Peres:</strong><br>
+                                <img src=" pablo.jpg" alt="Informação" class="rounded-circle img-fluid" />
+                                <p class="cargo"><strong>Editor-chefe </strong></p>
+                                <p class="gostos">Programador, editor-chefe .</p>
+                                <p class="gostos">Amante da prática, viciado em séries, filmes, games, entusiasta por periféricos e louco por tecnologia</p>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <strong class="nomes">Luciana Cason:</strong><br>
+                                    <img src=" luciana.jpg" alt="Informação" class="rounded-circle img-fluid" />
+                                    <p class="cargo"><strong>Editora de vídeos </strong></p>
+                                    <p class="gostos">Designer gráfico, Designer digital.</p>
+                                    <p class="gostos">Viciado em séries e filmes, e apaixonado em comer. </p>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <strong class="nomes">Elaine Calasans:</strong><br>
+                                    <img src=" elaine.jpg" alt="Informação" class="rounded-circle img-fluid" />
+                                    <p class="cargo"><strong>Editora </strong></p>
+                                    <p class="gostos">Programadora.</p>
+                                    <p class="gostos">Apaixonada por tecnologia, curiosa e sempre pronta para novos desafios. .</p>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <strong class="nomes">Lais Caroline:</strong><br>
+                                    <img src=" lais.jpg" alt="Informação" class="rounded-circle img-fluid" />
+                                    <p class="cargo"><strong>Auxiliar Administrativo e Redator </strong></p>
+                                    <p class="gostos">Advogada em formação.</p>
+                                    <p class="gostos">Amante de livros, séries e filmes. </p>
+                            </div>
+
+                <p class="funcionariostext"><strong>A equipe do Tech Blog, quem faz deste site o lugar onde você encontra tudo sobre tecnologia e internet.
+                São profissionais que trabalham na área e é com eles que você fica informado e aprende.</strong></p>
+                  </div>
+                   
+               </div>
+          </div>
+        </div>
+    <footer class="rodape">
+            <p>Tech Blog©</p>
+            <a href="https://www.facebook.com/"> <img src=" face.png" alt="Informação" class="rounded-circle img-fluid" /></a>
+            <a href="https://twitter.com/"><img src=" twitter.png" alt="Informação" class="rounded-circle img-fluid" /></a>
+            <a href="https://www.instagram.com/?hl=pt-br"><img src=" insta.png" alt="Informação" class="rounded-circle img-fluid" /></a>
+            <a href="https://www.youtube.com"><img src=" youtube.png" alt="Informação" class="rounded-circle img-fluid" /></a>
+      </footer> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
